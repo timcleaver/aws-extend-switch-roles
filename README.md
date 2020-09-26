@@ -1,4 +1,5 @@
-## V2 that supports the new UI for AWS MC becomes to show the role list in the menu shown when you click the extension icon.
+### V2 that supports the new UI for AWS MC becomes to show the role list in the menu shown when you click the extension icon.
+Notice: https://github.com/tilfin/aws-extend-switch-roles/issues/156#issuecomment-698073728
 
 ---
 
