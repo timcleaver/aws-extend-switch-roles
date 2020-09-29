@@ -1,5 +1,5 @@
-<h1 align="center">Plugin Broken Following AWS Console UI Update</h1>
-<h2 align="center">https://github.com/tilfin/aws-extend-switch-roles/issues/156</h2>
+### V2 that supports the new UI for AWS MC becomes to show the role list in the menu shown when you click the extension icon.
+Notice: https://github.com/tilfin/aws-extend-switch-roles/issues/156#issuecomment-698073728
 
 ---
 
@@ -13,8 +13,7 @@
 Extend your AWS IAM switching roles by Chrome extension or Firefox add-on
 
 Switch roll history does not remain only 5 maximum on the AWS Management Console.
-This extension extends to show more switch roles by loading your aws configuration.
-The bottom of the console header is emphasized with your specified color if you assume a cross account role.
+This extension give you show all of switch roles from a browse menu by loading your aws configuration.
 
 - Supports Chrome Sync
 
@@ -121,10 +120,9 @@ The 'Show only matching roles' setting is for use with more sophisticated accoun
 
 ## Settings
 
-- **Hide original role history** hides original role history (Show only roles in the configuration).
 - **Hide account id** hides the account_id for each profile.
-- **Show only matching roles** filters to only show profiles with roles that match your role in your master account.
-- **Automatically assume last assumed role (Experimental)** automatically assumes last assumed role on the next sign-in if did not back to the base account and signed out.
+- ~~**Show only matching roles** filters to only show profiles with roles that match your role in your master account.~~ **temporarily disabled**
+- ~~**Automatically assume last assumed role (Experimental)** automatically assumes last assumed role on the next sign-in if did not back to the base account and signed out.~~ **temporarily disabled**
 
 ## Extension API
 
@@ -140,8 +138,6 @@ Would you like to support this extension? I gladly accept small donations.
 
 ## Appearance
 
-![Screen Shot 1](https://github.com/tilfin/aws-extend-switch-roles/blob/images/ScreenShot_1_960x600.png)
-
-![Screen Shot 2](https://github.com/tilfin/aws-extend-switch-roles/blob/images/ScreenShot_2_960x600.png)
+![Screen Shot 1](https://github.com/tilfin/aws-extend-switch-roles/blob/images/ScreenShot_1.png)
 
 ![Screen Shot 3](https://github.com/tilfin/aws-extend-switch-roles/blob/images/ScreenShot_3_960x600.png)
